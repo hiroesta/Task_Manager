@@ -1,0 +1,17 @@
+{
+  "name": "mkddm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "render": "node render-diagram.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^11.12.0"
+  }
+}
