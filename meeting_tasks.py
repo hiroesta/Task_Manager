@@ -3,11 +3,11 @@ import json
 from openai import OpenAI
 
 # ====== 設定 ======
-TRANSCRIPT_FILE = "transcript.txt"  # Teamsの文字起こしファイル
-OUTPUT_JSON = "tasks.json"          # タスクリストの保存先
-OUTPUT_MERMAID = "diagram.mmd"      # アローダイアグラム用の出力ファイル
+TRANSCRIPT_FILE = "./scripts/transcript_sample_5min.txt"  # Teamsの文字起こしファイル
+OUTPUT_JSON = "./output/tasks.json"          # タスクリストの保存先
+OUTPUT_MERMAID = "./output/diagram.mmd"      # アローダイアグラム用の出力ファイル
 
-MODEL_NAME = "gpt-4.1-mini"         # 適宜変更可
+MODEL_NAME = "gpt-5.1-mini"         # 適宜変更可
 
 # 自分の呼ばれ方（会議内での名前・呼称）
 USER_ALIASES = ["大江さん", "Dさん"]
